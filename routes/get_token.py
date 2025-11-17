@@ -6,7 +6,7 @@ router = APIRouter()
 
 TOKEN_FILE_PATH = "token.json"
 
-@router.get("/get-token")
+@router.get("/deployment/get-token")
 async def get_token():
     """
     Fetches and serves the JSON token from a file.

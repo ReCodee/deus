@@ -6,7 +6,7 @@ router = APIRouter()
 
 VERSIONS_FILE_PATH = "versions.json"
 
-@router.get("/get-latest-versions")
+@router.get("/deployment/get-latest-versions")
 async def get_latest_versions():
     """
     Fetches and returns the versions array from versions.json file.

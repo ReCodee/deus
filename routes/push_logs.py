@@ -10,7 +10,7 @@ LOGS_DIR = "logs"
 class LogData(BaseModel):
     data: str
 
-@router.post("/push-logs")
+@router.post("/deployment/push-logs")
 async def push_logs(log_data: LogData):
     """
     Saves the provided data in a text file.
