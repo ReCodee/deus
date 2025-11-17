@@ -1,0 +1,12 @@
+[
+  {
+    "image_name": "nm-svc-a",
+    "version": "v1.0.3",
+    "full_name": "asia-south1-docker.pkg.dev/policybazaarpartners/nivesh-mitra/nm-svc-a:v1.0.3"
+  },
+  {
+    "image_name": "nm-svc-b",
+    "version": "v1.0.3",
+    "full_name": "asia-south1-docker.pkg.dev/policybazaarpartners/nivesh-mitra/nm-svc-b:v1.0.3"
+  }
+]
